@@ -1,0 +1,23 @@
+# Data files (Never upload these)
+data/*.csv
+data/*.parquet
+data/*.zip
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model weights and large objects
+models/*.pkl
+models/*.joblib
+models/*.lgb
+models/*.onnx
